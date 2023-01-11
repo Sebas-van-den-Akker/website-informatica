@@ -1,7 +1,11 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #e0ffe0;
+  background-color: whitesmoke;
   margin: 0px;
+}
+
+img {
+  object-fit: cover;
 }
 
 p {
@@ -19,6 +23,8 @@ h2 {
 h3 {
   
 }
+
+
 /* Achtergrond van menu #333 */
 .menu {
   position: sticky;
@@ -44,8 +50,50 @@ h3 {
   color: black;
 }
 
-/* Voeg kleur toe aan huidige pagina */
+/* Voeg kleur toe aan huidige pagina kopje */
 .menu a.active {
-  background-color: #3a70ee;
+  background-color: rgb(0, 121, 0);
   color: white;
+}
+
+.bovenbalk {
+  position: relative;
+  height: 200px;
+  /* maakt tekst niet selecteerbaar */
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.bovenbalk h1 {
+  /* zorgt er voor dat de text in het midden zit */
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translate(0%, -100%);
+  /* tekst kleur en grootte */
+  color: #004000;
+  font-size: 40px;
+  text-shadow: 0px 0px 5px yellow, 0px 0px 3px lightgreen;
+  /* tijd voor de transitie */
+  transition: .4s;
+  
+  }
+
+.bovenbalk h1:hover {
+  /* de dingen die veranderen als je over de tekst heen zweeft met je cursor */
+  font-size: 60px;
+  color: #005959;
+  transition-timing-function: ease-in-out;
+}
+
+.zijbalk {
+  width: 15%;
+  height: 100%;
+  background-color: blue;
+}
+.text {
+  width: 85%
+  
 }
