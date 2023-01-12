@@ -13,7 +13,7 @@ p {
 }
 
 h1 {
-  
+
 }
 
 h2 {
@@ -24,7 +24,7 @@ h3 {
   
 }
 
-
+/* het boven menu is gedeeltelijk van w3schools.com gehaald */
 /* Achtergrond van menu #333 */
 .menu {
   position: sticky;
@@ -96,4 +96,16 @@ h3 {
 .text {
   width: 85%
   
+}
+
+.text h1 {
+  margin-top: 45px; 
+}
+
+.text #bovenste {
+  margin-top: 10px; 
+}
+.text img {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
