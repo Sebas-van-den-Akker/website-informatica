@@ -33,7 +33,7 @@ h3 {
   background-color: #333;
   overflow: hidden;
   /* zorgt er voor dat de menubalk boven de widgets blijft */
-  z-index: 4;
+  z-index: 7;
 }
 
 /* De menu linkjes */
@@ -91,13 +91,14 @@ h3 {
 }
 
 .zijbalk {
-  width: 15%;
-  height: 100%;
+  width: 10%;
+  height: 10%;
   background-color: blue;
+  float: left;
 }
 .text {
-  width: 85%
-  
+  width: 85%;
+
 }
 
 .text h1 {
@@ -111,7 +112,6 @@ h3 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
 /* zorgt er voor dat de menubalk boven de widgets blijft */
 .back {
   z-index: 0;
