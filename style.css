@@ -4,6 +4,20 @@ body {
   margin: 0px;
 }
 
+table {
+  width: 95%;
+}
+td {
+  width: 40%;
+}
+tr {
+  height: 40%;
+}
+
+table, tr, td {
+  border: 5px solid;
+}
+
 img {
   object-fit: cover;
 }
@@ -133,4 +147,15 @@ h3 {
 /* zorgt er voor dat de menubalk boven de widgets blijft */
 .back {
   z-index: 0;
+}
+
+.fotopagina {
+  width: 95vw;
+  height: 100vw;
+  
+}
+
+.fotopagina img {
+  width: 45vw;
+  height: 45vw;
 }
